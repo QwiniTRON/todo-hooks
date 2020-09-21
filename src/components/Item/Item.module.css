@@ -1,0 +1,65 @@
+.item {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.flag {
+    display: inline-block;
+    background-color: #6bf;
+    margin: 2px 5px;
+    width: 20px;
+    height: 5px;
+    vertical-align: bottom;
+    transition: background-color 0.2s, height 0.1s;
+}
+
+.delete {
+    float: right;
+}
+
+.item input[type="checkbox"] {
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.item input[type="text"] {
+    font-size: 14px;
+    border: none;
+    border-bottom: 3px solid #08f;
+}
+
+.item input[type="text"].uncorrect {
+    font-size: 14px;
+    border: none;
+    border-bottom: 3px solid #f80;
+}
+
+
+
+.text{
+    color: #222;
+}
+
+.item input[type="checkbox"]:checked + .flag {
+    height: 16px;
+    background-color: #08f;
+}
+
+.edit {
+    float: right;
+    font-size: 24px;
+    margin: 0 15px;
+    color: #08f;
+    cursor: pointer;
+}
+
+.delete {
+    color: tomato;
+    font-size: 24px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+

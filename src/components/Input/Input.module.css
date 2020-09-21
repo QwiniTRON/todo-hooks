@@ -1,0 +1,12 @@
+.input{
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #08f;
+    background-color: #eee;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.input:focus.uncorrect{
+    border-bottom: 3px solid #f80;
+}

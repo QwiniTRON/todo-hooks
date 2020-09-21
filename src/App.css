@@ -1,0 +1,13 @@
+.lineed {
+  text-decoration: line-through black solid;
+}
+
+.App {
+  width: 80vw;
+  min-width: 320px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 0 #fff, 2px 2px 4px 0 #08f, -1px -1px 4px 0 #ddf;
+}
